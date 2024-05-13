@@ -73,8 +73,7 @@ contract CommandableFairLaunchToken is ERC20, ReentrancyGuard {
     // total ethers funded
     uint256 public totalEthers;
 
-    // how many tokens are reserved by the issuer
-    uint256 public reserve;
+    
 
     event FundEvent(
         address indexed from, 
